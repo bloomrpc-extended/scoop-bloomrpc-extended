@@ -4,7 +4,7 @@
   "homepage": "https://github.com/ahmethakanbesel/bloomrpc-extended",
   "license": "LGPL-3.0-or-later",
   "url": "https://github.com/ahmethakanbesel/bloomrpc-extended/releases/download/v2.1.0/BloomRPC-Extended-Setup-2.1.0.exe#/dl.7z",
-  "hash": "9f0d9e796f5d124d6ce4981123bb7929640d7ab49a8d72e3e00727ba66022611",
+  "hash": "f5200eb3ac0e3668322e05d867950115b6bd5f9b2539c7ac3303da2a2280e3bb",
   "extract_dir": "$PLUGINSDIR",
   "pre_install": "Get-ChildItem \"$dir\" -Recurse -File | Where-Object { $_.Name -match '\\$' } | Remove-Item -Force",
   "installer": {
