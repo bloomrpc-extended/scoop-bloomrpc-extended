@@ -1,10 +1,10 @@
 {
-  "version": "2.1.0",
+  "version": "2.1.1",
   "description": "GUI client for gRPC services",
   "homepage": "https://github.com/ahmethakanbesel/bloomrpc-extended",
   "license": "LGPL-3.0-or-later",
-  "url": "https://github.com/ahmethakanbesel/bloomrpc-extended/releases/download/v2.1.0/BloomRPC-Extended-Setup-2.1.0.exe#/dl.7z",
-  "hash": "f5200eb3ac0e3668322e05d867950115b6bd5f9b2539c7ac3303da2a2280e3bb",
+  "url": "https://github.com/ahmethakanbesel/bloomrpc-extended/releases/download/v2.1.1/BloomRPC-Extended-Setup-2.1.1.exe#/dl.7z",
+  "hash": "df97a42896a86ee3a7e6148ed3825e3c8c906c012c54f4938eeafbeb1b0d1572",
   "extract_dir": "$PLUGINSDIR",
   "pre_install": "Get-ChildItem \"$dir\" -Recurse -File | Where-Object { $_.Name -match '\\$' } | Remove-Item -Force",
   "installer": {
